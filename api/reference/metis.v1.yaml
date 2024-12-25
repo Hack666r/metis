@@ -529,7 +529,7 @@ paths:
       responses:
         '200':
           description: OK
-      description: "An arbitration can be requested. But the servie may come with a charge. It's up to the DAC to decide the arbitration mechanism."
+      description: "An arbitration can be requested. But the service may come with a charge. It's up to the DAC to decide the arbitration mechanism."
   '/stake/{id}/requestarbitration':
     parameters:
       - schema:
