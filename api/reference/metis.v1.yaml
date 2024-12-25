@@ -91,7 +91,7 @@ paths:
                 result:
                   type: string
                   maxLength: 254
-      description: Notify the engagment client that the work has finished. The result should contain either the content of the work or the desciption to find the content of the work. The result will be written into the contract and ecnrypted by the serivce public key and engagement public key.
+      description: Notify the engagment client that the work has finished. The result should contain either the content of the work or the description to find the content of the work. The result will be written into the contract and ecnrypted by the serivce public key and engagement public key.
   '/engagement/{id}/review':
     parameters:
       - schema:
